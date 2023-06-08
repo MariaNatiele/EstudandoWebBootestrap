@@ -1,0 +1,31 @@
+:root{
+    --coredit: #00a6d0;
+    --corbuttn: #03c494;
+    --corLink: #fff;
+}
+
+
+.imag-tmh{
+    height: 100%;
+    width: 100%;
+
+}
+.continer{
+    display: flex;
+    flex-direction: center;
+    margin: 20px;
+    height: 800px;
+}
+.card{
+    height: 75%;
+    width: 100%;
+    margin-right: 35px;
+}
+.color-btn{
+    color: var(--corLink);
+    background:var(--corbuttn) ;
+}
+.card-title{
+    text-align: center;
+    font-size: 20px;
+}

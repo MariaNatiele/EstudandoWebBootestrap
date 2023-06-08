@@ -1,0 +1,28 @@
+.Container{
+    height: 800px;
+    display: flex;
+    flex-direction: center;
+}
+.principal{
+    width: 50%;
+    height: 650px;
+    margin: 5%;
+
+}
+.secundaria{
+  
+    margin: 5%;
+    width: 35%;
+    height: 650px;
+
+}
+.secundario-image{
+   margin:5%;
+    width: 85%;
+    height: 95%;
+}
+
+
+.espaco{
+    margin:2%;
+}

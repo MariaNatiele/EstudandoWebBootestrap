@@ -1,0 +1,13 @@
+.container-main{
+    width: 100%;
+    height: 800px;
+}
+.formulario{
+    width: 75%;
+    margin-top: 2%;
+    margin-left: 5%;
+
+}
+.color{
+    background-color: #00a6d0;
+}

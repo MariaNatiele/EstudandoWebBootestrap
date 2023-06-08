@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap4/css/bootstrap.min.css">
+    <link rel="icon" type="icon-x" href="./imagens/icone.png">
+    <link rel="stylesheet" type="text/css" href="css/style-login.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    
+    <header class="navbar">
+        <div class="container" >
+          <div class="imagem">
+
+          </div>
+            <div class="redes-sociais">
+                <a class="navbar-brand" href="#">
+                    <img src="./imagens/instagram.png">
+                  </a>
+                  
+                  <a class="navbar-brand" href="#" >
+                    <img src="./imagens/linkedin.png">
+                  </a>
+                  <a class="navbar-brand" href="#">
+                    <img src="./imagens/twitter.png">
+                  </a>
+            </div>
+
+      </header>
+
+      <nav class="nav-cor nav-fixed">
+        <ul class="nav justify-content-center">
+            <li class="logo">
+                <img src="./imagens/Trancoso.png">
+              </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pacotes.html">Pacotes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="destino.html">Destinos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">Hotéis</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Voos</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link " href="login.html">Contatos</a>
+            </li>
+          </ul>
+      </nav>
+
+
+
+<!--inicio da main-->
+<main class="container-main">
+        <form class="formulario">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4"  placeholder="MariaSan@gmail.com">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4"  placeholder="*******">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Nome completo</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Maria Santana">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Endereço</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Rua das Margaridas, n° 25, Jardim, Alagoinhas">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">Estado</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">Estado</label>
+                <select id="inputState" class="form-control">
+                  <option selected>...</option>
+                  <option>Acre</option>
+                  <option>Alagoas</option>
+                  <option>Amapá</option>
+                  <option>Amazonas</option>
+                  <option>Bahia</option>
+                  <option>Ceará</option>
+                  <option>Distrito Federal</option>
+                  <option>Espírito Santo</option>
+                  <option>Goiás</option>
+                  <option>Maranhão</option>
+                  <option>Mato Grosso</option>
+                  <option>Mato Grosso do Sul</option>
+                  <option>Minas Gerais</option>
+                  <option>Pará</option>
+                  <option>Paraíba</option>
+                  <option>Paraná</option>
+                  <option>Pernanbuco</option>
+                  <option>Piauí</option>
+                  <option>Rio de Janeiro</option>
+                  <option>Rio Grande do Norte</option>
+                  <option>Rio Grande do Sul</option>
+                  <option>Rondônia</option>
+                  <option>Roraima</option>
+                  <option>Santa Catarina</option>
+                  <option>São Paulo</option>
+                  <option>Sergipe</option>
+                  <option>Tocantins</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">CEP</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+            
+            <button type="submit" class="btn color">Cadastrar</button>
+          </form>
+    </main>
+  
+<!--Inicio do footer-->
+<footer>
+    <div class="footer-principal">
+      
+      <div>
+        <img src="./imagens/Trancoso.png" class="logo-footer">
+      </div>
+
+      <div class="footer-color">
+        <p>(71)- 3689-9870</p>
+        <p>contato@trancoso.com.br</p>
+        <p>Rua ... N°15, Alagoinhas - Bahia</p>
+        <p>Ouvidoria</p>
+      </div>
+    </div>
+    <div class="footer-sec1 footer-color">
+      <h2 class="footer-color2">A empresa</h2>
+      <p>Quem Somos</p>
+      <p>Seja nosso parceiro</p>
+      <p>Contato</p>
+    </div>
+    <div class="footer-sec1 footer-color">
+      <h2 class="footer-color2">Newsletter</h2>
+      <p>Se inscreva, e receba as últimas novidades
+         sobre os melhores destinos para suas ferias.</p>
+
+         <div class="input-group flex-nowrap">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="addon-wrapping">@</span>
+          </div>
+          <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="addon-wrapping">
+        </div>
+    </div>
+  </footer>
+</body>
+</html>
